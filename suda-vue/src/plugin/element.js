@@ -1,0 +1,89 @@
+import Vue from "vue"
+import {
+    Button,
+    Container,
+    Header,
+    Aside,
+    Main,
+    Footer,
+    RadioGroup,
+    RadioButton,
+    Menu,
+    Submenu,
+    MenuItemGroup,
+    MenuItem,
+    Breadcrumb,
+    BreadcrumbItem,
+    Tag,
+    Message,
+    MessageBox,
+    Card,
+    Form,
+    FormItem,
+    Input,
+    Avatar,
+    Dropdown,
+    DropdownMenu,
+    DropdownItem,
+    Dialog,
+    Row,
+    Col,
+    Table,
+    TableColumn,
+    Pagination,
+    Select,
+    Option,
+    Radio,
+    Popconfirm,
+    Popover,
+    Descriptions,
+    DescriptionsItem,
+    Scrollbar,
+    Switch,
+    Drawer,
+    ColorPicker,
+} from "element-ui"
+
+Vue.use(ColorPicker)
+Vue.use(Drawer)
+Vue.use(Switch)
+Vue.use(Scrollbar)
+Vue.use(DescriptionsItem)
+Vue.use(Descriptions)
+Vue.use(Popover)
+Vue.use(Popconfirm)
+Vue.use(Radio)
+Vue.use(Select)
+Vue.use(Option)
+Vue.use(Pagination)
+Vue.use(Table)
+Vue.use(TableColumn)
+Vue.use(Row)
+Vue.use(Col)
+Vue.use(Dialog)
+Vue.use(Dropdown)
+Vue.use(DropdownMenu)
+Vue.use(DropdownItem)
+Vue.use(Avatar)
+Vue.use(Form)
+Vue.use(FormItem)
+Vue.use(Input)
+Vue.use(Card)
+Vue.use(Tag)
+Vue.use(Breadcrumb)
+Vue.use(BreadcrumbItem)
+Vue.use(RadioGroup)
+Vue.use(RadioButton)
+Vue.use(Menu)
+Vue.use(Submenu)
+Vue.use(MenuItemGroup)
+Vue.use(MenuItem)
+Vue.use(Container)
+Vue.use(Header)
+Vue.use(Aside)
+Vue.use(Main)
+Vue.use(Footer)
+Vue.use(Button)
+
+Vue.prototype.$message = Message
+Vue.prototype.$confirm = MessageBox.confirm

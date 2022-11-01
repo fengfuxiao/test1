@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .f {
+            /* width: 500px; */
+            /* height: 500px; */
+            background-color: gray;
+        }
+        .f-l {
+            width: 200px;
+            height: 200px;
+            background-color: skyblue;
+            float: left;
+        }
+        .f-af {
+            width: 200px;
+            height: 200px;
+            background-color: purple;
+        }
+    </style>
+</head>
+<body>
+    <div class="f">
+        <div class="f-l"></div>
+        <div class="f-af"></div>
+    </div>
+</body>
+<script>
+    const routerList = []
+    const arr = [
+        {
+            name: "1",
+        },
+        {
+            name: "2",
+        },
+        {
+            name: "1",
+        },
+    ]
+    const charr = {
+        name: "1"
+    }
+    arr.forEach(item => {
+        routerList.push(item)
+    })
+    console.log(routerList)
+    console.log(routerList.indexOf(charr))
+
+</script>
+</html>
